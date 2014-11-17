@@ -51,6 +51,10 @@ class Module extends \ZRay\ZRayModule {
 
     public function config() {
         return array(
+            // The name defined in ZRayExtension
+    	      'extension' => array(
+    				  'name' => 'samples',
+    			  ),
             // Prevent those default panels from being displayed
             'defaultPanels' => array(
                 'multiplyGeneralTree' => false,
