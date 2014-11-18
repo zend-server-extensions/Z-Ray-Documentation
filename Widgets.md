@@ -16,6 +16,8 @@ Widgets can be accessed using the JavaScript  object zray, which exposes the fol
 registerDataHandler(extension, namespace, userFunc)
 getExtensionMetadata(extension)
 getStorage(namespace)
+updateMenuTitle(extension, namespace, label)
+getMenuTitle(extension, namespace, htmlFlag)
 
 // widgets
 createTable(dataStorage, $container)
@@ -309,3 +311,10 @@ summaryTable.setColumns([
 },
 ...
 ```
+
+## Additional Methods
+`zray` object expose additional methods that can be used:
+
+- `updateMenuTitle(extension, namespace, label)` will update the menu title according to extension and namespace, handy in case you want to update records count.
+
+- `getMenuTitle(extension, namespace, htmlFlag)` will return the menu title for given extension and namespace. Use the boolean `htmlFlag` to specify if you want the label text or html content, default to false. 
