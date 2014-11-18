@@ -312,7 +312,7 @@ summaryTable.setColumns([
 ...
 ```
 
-## Additional Methods
+## Additional methods
 `zray` object expose additional methods that can be used:
 
 - `updateMenuTitle(extension, namespace, label)` will update the menu title according to extension and namespace, handy in case you want to update records count.
