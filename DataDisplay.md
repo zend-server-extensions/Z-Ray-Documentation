@@ -32,7 +32,7 @@ Custom panels give us the freedom to create whatever you can think of with the s
 
 To create custom panels, we need to extend the extension tree structure with additional resources that describe how each panel works:
 
-## ExtensionName
+ExtensionName
 - Panels (directory)
   - myCustomPanel.phtml
   - ... list of custom panels
