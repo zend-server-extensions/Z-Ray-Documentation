@@ -33,7 +33,6 @@ You can find code examples for all the content in this document (and more!) in o
 	- [zrayExtension::setMetadata($metadata);](DataCollection.md#zrayextensionsetmetadatametadata)
 - [Z-Ray Data Display](DataDisplay.md#)
 	- [Automatically generated panels](DataDisplay.md#automatically-generated-panels)
-	- [ExtensionName](DataDisplay.md#extensionname)
 	- [Z-Ray Extension Module.php](DataDisplay.md#z-ray-extension-modulephp)
 	- [Z-Ray extension viewscript](DataDisplay.md#z-ray-extension-viewscript)
 - [Z-Ray Widgets](Widgets.md#)
