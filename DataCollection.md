@@ -116,7 +116,7 @@ exceptionThrown | Did the function throw an exception?
 exception | the exception object that was thrown (can be NULL)
 this | The $this context of a method. Will be null for global or lambda functions that have no context
 returnValue | The function's return value
-locals | the functions variables, as they were at the end of the function. Variables can be accessed like this: $context['locals']['myLocalVariable'] (note the missing $ sign from the variable name).
+locals | the functions variables, as they were at the end of the function. Variables can be accessed like this: `$context['locals']['myLocalVariable']` (note the missing $ sign from the variable name).
 timesCalled | The number which the current function called
 durationInclusive | The duration of the function include it's sub childrens
 durationExclusive | The duration of the function itself
