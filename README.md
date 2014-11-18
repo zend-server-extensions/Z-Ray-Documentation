@@ -44,3 +44,4 @@ You can find code examples for all the content in this document (and more!) in o
 	- [Z-Ray resources](Widgets.md#z-ray-resources)
 	- [Z-Ray tabs](Widgets.md#z-ray-tabs)
 	- [Z-Ray summary table](Widgets.md#z-ray-summary-table)
+	- [Additional methods](Widgets.md#additional-methods)
