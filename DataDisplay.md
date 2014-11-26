@@ -88,6 +88,7 @@ Panels is a list of custom panels and their configurations:
 Parameter | Description
 ------------ | -------------
 display | whether to display the panel or not
+alwaysShow | true in order to show the panel even if the extension wasn't used in the current request
 logo | the filename of the logo (relative to the extension root)
 menuTitle | the panel's menu title (the bottom one)
 panelTitle | the panel's content panel (inside the opened panel)
